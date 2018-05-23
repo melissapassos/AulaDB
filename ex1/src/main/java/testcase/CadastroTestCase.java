@@ -25,8 +25,8 @@ public class CadastroTestCase {
 	
 	@Test
 	public void testMain() {
-		cadastro.PreencherCadastro("Maria" , "teste@teste" , "minhasenha" , "minhasenha" , "51985777081" , "Porto Alegre" );
-		
+		cadastro.PreencherCadastro("Maria" , "teste@teste", "minhasenha", "minhasenha", "51985777081", "Porto Alegre");
+		cadastro.EnviarFormulario();
 	}
 	
 	//@After
